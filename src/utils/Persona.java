@@ -19,5 +19,18 @@ public class Persona
 		this.name = name;
 	}
 	
+	public String toString()
+	{
+		return getName();
+	}
+
+	@Override
+	public boolean equals(Object obj) 
+	{
+		
+		return super.equals(obj);
+	}
+	
+	
 	
 }
